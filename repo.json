@@ -1,0 +1,52 @@
+{
+  "name": "CyPwn Hybrid Repo",
+  "identifier": "xyz.cypwn.hybrid",
+  "subtitle": "35k simulated App Store apps + real IPA downloads",
+  "iconURL": "https://repo.cypwn.xyz/assets/images/cypwn_small.png",
+  "sourceURL": "https://repo.cypwn.xyz/hybrid.json",
+  "tintColor": "FFC300",
+
+  "featuredApps": [
+    "app.utm",
+    "app.delta"
+  ],
+
+  "apps": [
+    {
+      "id": "app.utm",
+      "name": "UTM",
+      "developer": "UTM Team",
+      "version": "4.6.0",
+      "iconURL": "https://raw.githubusercontent.com/utmapp/UTM/main/Resources/Images/UTM.png",
+      "description": "Full virtual machine emulator.",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/latest/download/UTM.ipa",
+      "sizeMB": 110
+    },
+    {
+      "id": "app.delta",
+      "name": "Delta Emulator",
+      "developer": "Riley Testut",
+      "version": "1.6",
+      "iconURL": "https://raw.githubusercontent.com/rileytestut/Delta/master/Delta/Assets.xcassets/AppIcon.appiconset/icon.png",
+      "description": "Multi-platform emulator.",
+      "downloadURL": "https://github.com/rileytestut/Delta/releases/latest/download/Delta.ipa",
+      "sizeMB": 42
+    }
+  ],
+
+  "appsGenerator": {
+    "count": 100000,
+    "startIndex": 1000000000,
+    "pattern": {
+      "id": "appstore.sim.{index}",
+      "name": "App Store App #{index}",
+      "developer": "Apple Developer",
+      "version": "1.0",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/placeholder.png/100x100bb.jpg",
+      "description": "This entry simulates an App Store app. Tapping will open the official App Store page.",
+      "downloadURL": "https://apps.apple.com/app/id{index}",
+      "sizeMB": 0
+    }
+  }
+}
+i
