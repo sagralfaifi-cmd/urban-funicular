@@ -1,9 +1,9 @@
 {
-  "name": "CyPwn Hybrid Repo",
-  "identifier": "xyz.cypwn.hybrid",
-  "subtitle": "35k simulated App Store apps + real IPA downloads",
-  "iconURL": "https://repo.cypwn.xyz/assets/images/cypwn_small.png",
-  "sourceURL": "https://repo.cypwn.xyz/hybrid.json",
+  "name": "Hybrid Repo",
+  "identifier": "com.hybrid.hybrid",
+  "subtitle": "35k simulated App Store apps + legal IPA downloads",
+  "iconURL": "https://github.com/9b9da927-664c-4a0f-a2e5-1c6bf99fe09c",
+  "sourceURL": "https://raw.githubusercontent.com/sagralfaifi-cmd/urban-funicular/refs/heads/main/repo.json",
   "tintColor": "FFC300",
 
   "featuredApps": [
@@ -31,11 +31,41 @@
       "description": "Multi-platform emulator.",
       "downloadURL": "https://github.com/rileytestut/Delta/releases/latest/download/Delta.ipa",
       "sizeMB": 42
+    },
+    {
+      "id": "app.ish",
+      "name": "iSH Shell",
+      "developer": "iSH Team",
+      "version": "1.3.2",
+      "iconURL": "https://raw.githubusercontent.com/ish-app/ish/master/assets/icon.png",
+      "description": "Linux shell environment for iOS.",
+      "downloadURL": "https://github.com/ish-app/ish/releases/latest/download/iSH.ipa",
+      "sizeMB": 28
+    },
+    {
+      "id": "app.vlc",
+      "name": "VLC Media Player",
+      "developer": "VideoLAN",
+      "version": "3.4",
+      "iconURL": "https://upload.wikimedia.org/wikipedia/commons/0/0c/VLC_Icon.svg",
+      "description": "Open-source media player for all formats.",
+      "downloadURL": "https://downloads.videolan.org/vlc-last/ios/VLC-iOS-latest.ipa",
+      "sizeMB": 65
+    },
+    {
+      "id": "app.ppsspp",
+      "name": "PPSSPP",
+      "developer": "PPSSPP Team",
+      "version": "1.17.1",
+      "iconURL": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/UI/resources/ic_launcher.png",
+      "description": "PSP emulator for iOS.",
+      "downloadURL": "https://github.com/hrydgard/ppsspp/releases/latest/download/PPSSPP-iOS.ipa",
+      "sizeMB": 35
     }
   ],
 
   "appsGenerator": {
-    "count": 100000,
+    "count": 35000,
     "startIndex": 1000000000,
     "pattern": {
       "id": "appstore.sim.{index}",
@@ -49,4 +79,3 @@
     }
   }
 }
-i
